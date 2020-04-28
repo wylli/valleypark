@@ -2,13 +2,13 @@ html{
     margin: 5px;
 }
 
-header {
+header{
     float: left;
     background-color: #79BD9A;
     width: 100%;    
 }
 
-header p {
+header p{
     float: right;
     color: #36393c;
 }
@@ -34,7 +34,7 @@ p{
     margin: 3px;
 }
 
-a {
+a{
     color: #FFF;
     text-decoration: none;
     font-weight: bold;
