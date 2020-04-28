@@ -40,36 +40,36 @@ a{
     font-weight: bold;
 }
 
-a:hover {
+a:hover{
     color: #FFF;
     background: #0B486B;
     padding: 20px 5px;
 }
 
-#logo {
+#logo{
     float: left;
     width: 40%;
     height: 40%;
     display: block;
 }
 
-nav {
+nav{
     float: right;
     padding: 20px;
 }
 
-#menu-icon {
+#menu-icon{
     display: hidden;
     width: 40px;
     height: 40px;
     background: #4c8fec url(../img/menu-icon.png) center;
 }
 
-ul {
+ul{
     list-style: none;
 }
 
-li {
+li{
     display: inline-block;
     float: left;
     padding: 10px;
@@ -83,12 +83,12 @@ footer{
 }
 
 /* MEDIA QUERY IPhone*/
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 568px){
     #menu-icon {
         display: inline-block;
     }
 
-    nav ul {
+    nav ul{
         display: none;
         position: absolute;
         right: 20px;
@@ -98,18 +98,18 @@ footer{
         width: 20%
     }
 
-    nav li {
+    nav li{
         text-align: left;
         width: 100%;
         padding: 10px 0;
         margin: 0;
     }
 
-    nav:hover ul {
+    nav:hover ul{
         display: block;
     }
 
-    nav li a {
+    nav li a{
         color: #3B8686;
     }
 
