@@ -1,0 +1,303 @@
+html{
+    margin: 5px;
+}
+
+header {
+    float: left;
+    background-color: #79BD9A;
+    width: 100%;    
+}
+
+header p {
+    float: right;
+    color: #36393c;
+}
+
+img{
+    margin: 5px;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+h2{
+    margin-left: 10px;
+}
+
+body{
+    font-family: Helvetica, Arial;
+}
+
+p{
+    text-align: justify;
+    margin: 3px;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FFF;
+    background: #0B486B;
+    padding: 20px 5px;
+}
+
+#logo {
+    float: left;
+    width: 40%;
+    height: 40%;
+    display: block;
+}
+
+nav {
+    float: right;
+    padding: 20px;
+}
+
+#menu-icon {
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: #4c8fec url(../img/menu-icon.png) center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    background-color: #3b8686;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+/* MEDIA QUERY IPhone*/
+@media only screen and (max-width: 568px) {
+    #menu-icon {
+        display: inline-block;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        right: 20px;
+        top: 60px;
+        padding: 20px;
+        background: #fff;
+        width: 20%
+    }
+
+    nav li {
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+
+    nav li a {
+        color: #3B8686;
+    }
+
+    #gerais2 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #depoimentos1, #depoimentos2{
+        box-shadow: 10px 10px 5px #888888;
+        border-radius: 5px;
+        width: 95%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    nav #nav-footer{
+        display: none;
+    }
+
+    #copyright p{
+        text-align: center;
+    }
+
+    #slogan{
+        margin-right: 10px;
+        font-weight: bold;
+        letter-spacing: 4px;
+    }
+
+    .button{
+        background-color: #79bd9a;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    input[type=text], textarea{
+        width: 100%;
+        padding: 12px 10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: Helvetica, Arial;
+    }
+
+    #map{
+        padding-top: 15px;
+    }
+}
+
+/* MEDIA QUERY IPad*/
+@media only screen and (min-width: 569px){
+    #menu-icon{
+        display: hidden;
+    }
+
+    body{
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    header{
+        height: 180px;
+    }
+
+    section{
+        height: 250px;
+        clear: both;
+        padding-top: 10px;
+    }
+
+    #prom1, #prom2{
+        width: 48%;
+        float: left;
+        margin-left: 8px;
+        border: 1px solid #ccc;
+    }
+
+    #prom2{
+        float: right;
+    }
+
+    #gerais1, #gerais2, #gerais3{
+        float: left;
+        width: 32%;
+        margin: 3px;
+        border: 1px solid #ccc;
+    }
+
+    #gerais2{
+        border: none;
+    }
+
+    #gerais3{
+        float: right;
+    }
+
+    #gerais2 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+
+    #depoimentos1, #depoimentos2{
+        width: 48%;
+        float: left;
+        box-shadow: 3px 3px 3px #888888;
+        border-radius: 5px;
+        margin: 0 0 10px 10px;
+    }
+
+    #depoimentos2{
+        float: right;
+    }
+
+    footer{
+        height: 200px;
+        clear: both;
+        padding-top: 10px;
+    }
+
+    #slogan{
+        margin-right: 10px;
+        font-weight: bold;
+        letter-spacing: 7px;
+    }
+
+    #contato, #map{
+        width: 48%;
+        float:left;
+        height: auto;
+    }
+
+    #map{
+        float: right;
+    }
+
+    #informacoes{
+        clear:both;
+        width: 100%;
+    }
+
+    input[type=text], textarea{
+        width: 100%;
+        padding: 12px 10px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: Helvetica, Arial;
+    }
+
+    .button{
+        background-color: #79bd9a;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .detalhes{
+        width: 100%;
+        float: left;
+        border: 1px solid #ccc;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+/* MEDIA QUERY PC*/
+@media only screen and (min-width: 1024px){
+    body{
+        width: 95%;
+    }
+}
